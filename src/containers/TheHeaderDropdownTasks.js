@@ -1,13 +1,13 @@
 import React from 'react'
 import {
-  CBadge,
+  // CBadge,
   CDropdown,
   CDropdownItem,
   CDropdownMenu,
-  CDropdownToggle,
+  // CDropdownToggle,
   CProgress
 } from '@coreui/react'
-import CIcon from '@coreui/icons-react'
+// import CIcon from '@coreui/icons-react'
 
 const TheHeaderDropdownTasks = () => {
   const itemsCount = 5
@@ -16,10 +16,10 @@ const TheHeaderDropdownTasks = () => {
       inNav
       className="c-header-nav-item mx-2"
     >
-      <CDropdownToggle className="c-header-nav-link" caret={false}>
+      {/* <CDropdownToggle className="c-header-nav-link" caret={false}>
         <CIcon name="cil-list" />
         <CBadge shape="pill" color="warning">{itemsCount}</CBadge>
-      </CDropdownToggle>
+      </CDropdownToggle> */}
       <CDropdownMenu placement="bottom-end" className="pt-0">
         <CDropdownItem
           header

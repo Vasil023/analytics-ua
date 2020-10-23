@@ -1,13 +1,13 @@
 import React from 'react'
 import {
-  CBadge,
+  // CBadge,
   CDropdown,
   CDropdownItem,
   CDropdownMenu,
-  CDropdownToggle,
+  // CDropdownToggle,
   CImg
 } from '@coreui/react'
-import CIcon from '@coreui/icons-react'
+// import CIcon from '@coreui/icons-react'
 
 const TheHeaderDropdownMssg = () => {
   const itemsCount = 4
@@ -17,9 +17,9 @@ const TheHeaderDropdownMssg = () => {
       className="c-header-nav-item mx-2"
       direction="down"
     >
-      <CDropdownToggle className="c-header-nav-link" caret={false}>
+      {/* <CDropdownToggle className="c-header-nav-link" caret={false}>
         <CIcon name="cil-envelope-open" /><CBadge shape="pill" color="info">{itemsCount}</CBadge>
-      </CDropdownToggle>
+      </CDropdownToggle> */}
       <CDropdownMenu className="pt-0" placement="bottom-end">
         <CDropdownItem
           header
